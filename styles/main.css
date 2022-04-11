@@ -191,7 +191,11 @@ video {
 }
 
 .hero picture img {
-  height: 60vh;
+  height: 100vh;
+}
+
+.hero {
+  height: 100vw;
 }
 
 .hero .text-wrapper {
