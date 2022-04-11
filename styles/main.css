@@ -191,7 +191,7 @@ video {
 }
 
 .hero picture img {
-  max-height: 100vh;
+  height: 60vh;
 }
 
 .hero .text-wrapper {
@@ -741,6 +741,10 @@ input[type="checkbox"]:checked::after {
     bottom: unset;
   }
 
+  .hero {
+    height: 100vh;
+  }
+
   .form main {
     max-width: 70rem;
   }
@@ -816,6 +820,10 @@ input[type="checkbox"]:checked::after {
   .form section img {
     align-self: flex-start;
   }
+
+  .hero {
+    height: 100vh;
+  }
 }
 
 /* >1100 */
@@ -829,6 +837,10 @@ input[type="checkbox"]:checked::after {
     font-size: 2.5rem;
     line-height: 1.2;
   }
+  .hero {
+    height: 100vh;
+  }
+
   .overlay {
     position: absolute;
     top: 5%;
